@@ -278,14 +278,6 @@ $project_details = array(
 
 
 
-$portfolio_options = array(	
-		"notes" => array(
-    	"type" => "textarea",
-		"name" => $prefix."page_tags",
-    	"std" => "",
-    	"title" => __('tags','portfolilo'),
-    	"description" => __('For use with the Portfolio page template. <br/><br/>Enter the names of the tags (separated by commas) you want shown on this page. If left blank, all tags will be used.','portfolilo'))
-);
 
 
 $meta_box_groups = array($project_details, $home_feature_options, $page_options, $portfolio_options);
@@ -343,7 +335,7 @@ function create_meta_box() {
 	
 	if ( function_exists('add_meta_box') ) {
 		add_meta_box( 'new-meta-boxes-details', __('Project Details','portfolilo'), 'new_meta_box', 'projects', 'normal', 'high', array('inputs'=>$project_details) );		
-		add_meta_box( 'new-meta-boxes-portfolio-options', __('Portfolio Options','portfolilo'), 'new_meta_box', 'page', 'side', 'low', array('inputs'=>$portfolio_options) );		
+			
 	}
 }
 
