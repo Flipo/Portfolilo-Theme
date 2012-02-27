@@ -1025,6 +1025,9 @@ textarea {
   color: #e6b197;
   border-bottom: 3px solid #e6b197;
 }
+.pageimage {
+  margin: 2em 0 0 0;
+}
 #toTop {
   display: none;
   text-decoration: none;

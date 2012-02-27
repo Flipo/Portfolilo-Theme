@@ -45,6 +45,7 @@ register_sidebar(array(
 add_theme_support( 'post-thumbnails' );
 
 add_image_size( 'post-thumb', 222, 220, true );
+add_image_size( 'page-thumb', 280, 300, true );
 
 
 //Apply do_shortcode() to widgets so that shortcodes will be executed in widgets
