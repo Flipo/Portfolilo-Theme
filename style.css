@@ -983,6 +983,10 @@ textarea {
 .portfolio {
   padding: 2em 0;
 }
+.portfolio img {
+  max-width: 640px;
+  height: auto;
+}
 .post h3 {
   padding-top: 1em;
   margin-bottom: -0.5em;
