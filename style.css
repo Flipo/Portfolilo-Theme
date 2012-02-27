@@ -1028,6 +1028,23 @@ textarea {
 .pageimage {
   margin: 2em 0 0 0;
 }
+.pageimage #contactForm {
+  width: 280px !important;
+}
+.pageimage #contactForm label, .pageimage #contactForm input {
+  width: 270px;
+}
+.pageimage #contactForm label {
+  margin-bottom: 0.5em;
+}
+.pageimage #contactForm textarea {
+  padding: 10px;
+  width: 260px;
+}
+.pageimage #contactForm .inputsubmit {
+  width: auto !important;
+  padding: 0 1em;
+}
 #toTop {
   display: none;
   text-decoration: none;
