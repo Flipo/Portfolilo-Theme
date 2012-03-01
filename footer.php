@@ -63,6 +63,15 @@ jQuery(document).ready(function($) {
 			
 		});
 	</script>
-   
+	
+<script type="text/javascript">
+		
+			jQuery(".title").click(function(){
+    		 window.location=jQuery(this).find("a").attr("href");
+     		return false;
+			});
+			
+
+	</script>
 </body>
 </html>

@@ -53,7 +53,7 @@ Template Name: Portfolio
            	<div class="title">            
 				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 				<h2><?php the_title(); ?></h2></a>
-     			<p><?php echo get_the_term_list( $post->ID, 'tag', '', ', ' ) ?></p>
+     			<p><?php echo get_the_term_list( $post->ID, 'tag', '', ', ' ) ?></p>	
      		</div>
 
           </article>

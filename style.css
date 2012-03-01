@@ -1045,6 +1045,12 @@ textarea {
   width: auto !important;
   padding: 0 1em;
 }
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
 #toTop {
   display: none;
   text-decoration: none;

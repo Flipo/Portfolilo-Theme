@@ -37,7 +37,7 @@ if(isset($_POST['submitted'])) {
 		if (!isset($emailTo) || ($emailTo == '') ){
 			$emailTo = get_option('admin_email');
 		}
-		$subject = '[PHP Snippets] From '.$name;
+		$subject = 'Contact mail From '.$name;
 		$body = "Name: $name \n\nEmail: $email \n\nComments: $comments";
 		$headers = 'From: '.$name.' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
