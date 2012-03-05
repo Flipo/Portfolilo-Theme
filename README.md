@@ -1,7 +1,8 @@
 #Portfolilo
 ## A free wordpress portfolio theme
 
-Portfolilo is a free wordpress theme developed by webdesigner [Philipp Seiffert](http://philipp-seiffert.com/ "philipp-seiffert.com").
+Portfolilo is a free responsive wordpress theme developed by webdesigner [Philipp Seiffert](http://philipp-seiffert.com/ "philipp-seiffert.com").
+The theme has a minimalistic design and is perfect to display your art.
 
 
 ##Demo
