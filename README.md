@@ -13,6 +13,4 @@ Download: [Here](https://github.com/Flipo/Portfolilo-Theme/zipball/master "Downl
 ##Usage
 In Wordpress go to Appereance -> Themes -> Install Theme and upload the downloaded .zip-file.
 
-##To-Do
-
-I'm working on a documentation to show you how the theme is properly installed. 
+For further instruction read the documentation.pdf in the downloaded .zip-file.
