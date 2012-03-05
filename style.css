@@ -10,7 +10,6 @@ Tags: Responsive, grid, mobile, light, minimal, portfolio, slider
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-
 /* #Base 960 Grid
 ================================================== */
 .container {
@@ -517,15 +516,57 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+@font-face {
+  font-family: 'LatoLight';
+  src: url('fonts/Lato-Light-webfont.eot');
+  src: url('fonts/Lato-Light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Lato-Light-webfont.woff') format('woff'), url('fonts/Lato-Light-webfont.ttf') format('truetype'), url('fonts/Lato-Light-webfont.svg#LatoLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LatoBoldItalic';
+  src: url('fonts/Lato-BoldItalic-webfont.eot');
+  src: url('fonts/Lato-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Lato-BoldItalic-webfont.woff') format('woff'), url('fonts/Lato-BoldItalic-webfont.ttf') format('truetype'), url('fonts/Lato-BoldItalic-webfont.svg#LatoBoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LatoBold';
+  src: url('fonts/Lato-Bold-webfont.eot');
+  src: url('fonts/Lato-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Lato-Bold-webfont.woff') format('woff'), url('fonts/Lato-Bold-webfont.ttf') format('truetype'), url('fonts/Lato-Bold-webfont.svg#LatoBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LatoItalic';
+  src: url('fonts/Lato-Italic-webfont.eot');
+  src: url('fonts/Lato-Italic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Lato-Italic-webfont.woff') format('woff'), url('fonts/Lato-Italic-webfont.ttf') format('truetype'), url('fonts/Lato-Italic-webfont.svg#LatoItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LatoRegular';
+  src: url('fonts/Lato-Regular-webfont.eot');
+  src: url('fonts/Lato-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Lato-Regular-webfont.woff') format('woff'), url('fonts/Lato-Regular-webfont.ttf') format('truetype'), url('fonts/Lato-Regular-webfont.svg#LatoRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LatoLightItalic';
+  src: url('fonts/Lato-LightItalic-webfont.eot');
+  src: url('fonts/Lato-LightItalic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Lato-LightItalic-webfont.woff') format('woff'), url('fonts/Lato-LightItalic-webfont.ttf') format('truetype'), url('fonts/Lato-LightItalic-webfont.svg#LatoLightItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 /* #Basic Styles
 ================================================== */
 body {
-  background: url(http://subtlepatterns.com/images/bgnoise.gif) repeat top left #ffffff;
-  font-family: 'Lato', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: url(images/bgnoise.gif) repeat top left #ffffff;
+  font-family: 'LatoRegular', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.5em;
   color: #444444;
-  font-weight: 400;
+  font-weight: normal;
 }
 /* #Typography
 ================================================== */
@@ -628,7 +669,7 @@ a:visited {
   color: #777777;
   text-decoration: none;
   outline: 0;
-  font-family: 'Lato', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'LatoRegular', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -797,6 +838,7 @@ textarea {
 .logo a img {
   max-width: 280px;
   height: auto;
+  margin-top: 1em;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -830,7 +872,8 @@ textarea {
   padding: 2em 0;
   font-size: 1.5em;
   line-height: 2em;
-  font-weight: 100;
+  font-family: 'LatoLight', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
   float: left;
   color: #444444;
   text-align: center;
@@ -926,11 +969,11 @@ textarea {
   opacity: 0;
 }
 .postthumb p {
-  font-family: 'Lato', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'LatoRegular', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.75em;
   position: relative;
   color: #777777;
-  font-weight: 400;
+  font-weight: normal;
   padding: 0;
   text-align: center;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -1029,7 +1072,8 @@ textarea {
   display: block;
   color: #1b1b1b !important;
   margin-top: 1em;
-  font-weight: 100;
+  font-family: 'LatoLight', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
 }
 .blogmeta {
   font-size: 0.75em;
