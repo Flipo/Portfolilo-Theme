@@ -7,7 +7,7 @@ The theme has a minimalistic design and is perfect to display your art.
 
 
 ##Demo
-See the demo: [Here](http://portfolilo.philipp-seiffert.com/ "Portfolilo Demo Page").
+See the demo: [Here](http://portfolilo.philippseiffert.de "Portfolilo Demo Page").
 
 ##Download
 Download: [Here](https://github.com/Flipo/Portfolilo-Theme/zipball/master "Download Portfolilo").
