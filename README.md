@@ -12,7 +12,14 @@ See the demo: [Here](http://portfolilo.philippseiffert.de "Portfolilo Demo Page"
 ##Download
 Download: [Here](https://github.com/Flipo/Portfolilo-Theme/zipball/master "Download Portfolilo").
 
-##Usage
-In Wordpress go to Appereance -> Themes -> Install Theme and upload the downloaded .zip-file.
+##Installation
+1. In Wordpress go to "Appereance" -> "Themes"
+![Appereance in the Wordpress Menu](https://dl.dropboxusercontent.com/u/7199293/Portfolilo/01.png)
+
+2. Click on "Install Themes" 
+![](https://dl.dropboxusercontent.com/u/7199293/Portfolilo/02.png)
+
+3. Click on "Upload" - Search for the downloaded .zip-File on your Computer and upload it.
+![](https://dl.dropboxusercontent.com/u/7199293/Portfolilo/03.png)
 
 For further instructions read the documentation.pdf in the downloaded .zip-file.
